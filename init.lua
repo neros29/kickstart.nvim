@@ -1,3 +1,3 @@
-require 'lua.neros.init'
-require 'lua.neros.lazy'
-require 'lua.neros.keybinds'
+require 'neros.init'
+require 'neros.lazy'
+require 'neros.keybinds'
