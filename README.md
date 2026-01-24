@@ -1,7 +1,6 @@
-# kickstart.nvim
-
+# MY kickstart.nvim
 ## Introduction
-
+This is my personal nvim configs. Use at your own risk.
 A starting point for Neovim that is:
 
 * Small
