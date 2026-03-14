@@ -1,7 +1,7 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
-
+vim.g.python3_host_prog = '/home/neros/.global_venv/bin/python3'
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
@@ -29,7 +29,11 @@ vim.o.showmode = false
 vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
+-- Enable spell checking globally
+vim.o.spell = true
 
+-- Set the language to US English
+vim.o.spelllang = 'en_us'
 -- Enable break indent
 vim.o.breakindent = true
 
