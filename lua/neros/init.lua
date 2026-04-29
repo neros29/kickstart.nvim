@@ -82,9 +82,6 @@ vim.o.scrolloff = 8
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
-local omarchy = vim.fn.expand '~/.config/omarchy'
-vim.opt.rtp:prepend(omarchy)
-
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 -- Highlight when yanking (copying) text
